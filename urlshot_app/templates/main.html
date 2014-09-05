@@ -1,0 +1,24 @@
+<html>
+	<head>
+	    <title>URLShot</title>
+		<link rel="stylesheet" type="text/css" href="/static/main.css" />
+	</head>
+	<body>
+		<div id="main">
+			<h1><a href='http://urlshot.co.nr'>URLShot</a></h1>
+			<br />
+			<br />
+			<form method="post">
+					{% csrf_token %}
+					<label>http://<input type="text" name="tf" id="tf" value={{ url_value }}></label>
+					<br />
+					<input type="submit" value="Shot" name="button" id="button">
+			</form>
+			<br />
+			<p id="res"><a href = 'http://urlshot.co.nr/{{short}}' target='_blank'>{{ response_text }}</a></p>
+			<footer>
+			<a href="http://www.freedomain.co.nr/" target="_blank" title="FreeDomain.co.nr" rel="nofollow"><img src="http://aenueca.imdrv.net/coimage.gif" width="88" height="31" border="0" alt="FreeDomain.co.nr" /></a>
+			</footer>
+		</div>
+	</body>
+</html>

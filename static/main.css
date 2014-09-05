@@ -1,0 +1,60 @@
+h1
+{
+	text-align:center;
+	font-family:Verdana
+}
+
+#main
+{
+	width:60%;
+	text-align:center;
+	margin-top:15%;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+    font-family:Impact;
+}
+
+form{
+    text-align:center;
+}
+
+label{
+    font-family:Verdana;
+}
+
+#tf
+{
+	width:350px;
+	margin-bottom:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+#button
+{
+	width:75px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+#res
+{
+	text-align:center;
+	font-family:Verdana
+}
+
+a
+{
+    color:BLACK;
+    font-family:Verdana;
+    text-decoration:None;
+}
+
+footer{
+    text-align:center;
+}
